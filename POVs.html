@@ -8,5 +8,19 @@
 </head>
 <body>
     <h1>Look at some perspectives </h1>
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+        <label for="checkbox">Would you like to remain anonymous?  Yes </label>
+        <input type="checkbox" class="anon">
+        <br>
+        <div class="remain-anonymous">
+            <label for="text"> Name: </label>
+            <input type="text" id="Name" name="name-field">
+        </div>
+        <br>
+        <textarea name="Share your experience" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Submit">
+        <input name="send-to" value="palao@brooklynsteamcenter.org" hidden>
+    </form>
 </body>
 </html>
