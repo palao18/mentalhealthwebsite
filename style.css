@@ -6,3 +6,8 @@ p {
     background-color: #fcfdfd
 }
 
+input[type=submit] {
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 10%;
+}
