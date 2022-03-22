@@ -1,5 +1,6 @@
 body {
     background-color: #fffffe;
+
 }
 
 p {
@@ -11,7 +12,8 @@ input[type=submit] {
     padding: 8px;
     border-radius: 4px;
 }
-
-float-right {
-    float: right;
+@media only screen and (max-width: 425px) {
+    .pic {
+        float:none
+    }
 }
