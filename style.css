@@ -28,8 +28,8 @@ input[type=submit] {
 }
 .column {
 float: left;
-width: 25%;
-margin-bottom: 16px;
+width: 33%;
+margin-bottom: 20px;
 padding:0 8px;
 }
 @media screen and (max-width: 650px) {
